@@ -55,7 +55,7 @@ namespace Snake
                 new Position(19, 19),
                 new Position(6, 9),
             };
-            
+            // For loop
             foreach (Position obstacle in obstacles)
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
