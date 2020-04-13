@@ -39,7 +39,9 @@ namespace Snake
                 new Position(1, 0), // down
                 new Position(-1, 0), // up
             };
+            
             double sleepTime = 100;
+            
             int direction = right;
             Random randomNumbersGenerator = new Random();
             Console.BufferHeight = Console.WindowHeight;
@@ -53,6 +55,7 @@ namespace Snake
                 new Position(19, 19),
                 new Position(6, 9),
             };
+            
             foreach (Position obstacle in obstacles)
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
