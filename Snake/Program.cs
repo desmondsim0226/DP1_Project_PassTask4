@@ -1,4 +1,5 @@
-﻿using System;
+// Namespaces in C# are used to orgnize too many classes so that it can be easy to handle the application.
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
