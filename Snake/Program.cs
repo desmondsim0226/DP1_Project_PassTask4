@@ -22,7 +22,7 @@ namespace Snake
 
     class Program
     {
-        //the main file
+        //the main compiler
         static void Main(string[] args)
         {
             byte right = 0;
@@ -48,6 +48,7 @@ namespace Snake
             Console.BufferHeight = Console.WindowHeight;
             lastFoodTime = Environment.TickCount;
 
+            //Make a list of coordinates of the position
             List<Position> obstacles = new List<Position>()
             {
                 new Position(12, 12),
