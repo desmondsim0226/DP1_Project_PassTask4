@@ -21,6 +21,7 @@ namespace Snake
 
     class Program
     {
+        //the main file
         static void Main(string[] args)
         {
             byte right = 0;
