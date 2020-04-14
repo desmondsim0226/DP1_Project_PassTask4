@@ -74,7 +74,8 @@ namespace Snake
             {
                 snakeElements.Enqueue(new Position(0, i));
             }
-
+            
+            //creating food item
             Position food;
             do
             {
@@ -96,7 +97,7 @@ namespace Snake
             while (true)
             {
                 negativePoints++;
-
+                //control keys
                 if (Console.KeyAvailable)
                 {
                     ConsoleKeyInfo userInput = Console.ReadKey();
