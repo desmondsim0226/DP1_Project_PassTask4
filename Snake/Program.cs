@@ -6,6 +6,7 @@ using System.Text;
 using System.Collections;
 using System.Threading;
 
+//namespace
 namespace Snake
 {
     struct Position
@@ -51,6 +52,7 @@ namespace Snake
             //Make a list of coordinates of the position
             List<Position> obstacles = new List<Position>()
             {
+                //5 obstacles have been created while the game start running with different position
                 new Position(12, 12),
                 new Position(14, 20),
                 new Position(7, 7),
