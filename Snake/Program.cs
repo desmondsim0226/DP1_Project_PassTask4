@@ -43,7 +43,7 @@ namespace Snake
             
             double sleepTime = 100;
             
-            int direction = right;
+            int direction = right; //this defaults the snake's direction to right when the game starts
             Random randomNumbersGenerator = new Random();
             Console.BufferHeight = Console.WindowHeight;
             lastFoodTime = Environment.TickCount;
@@ -58,7 +58,7 @@ namespace Snake
                 new Position(6, 9),
             };
             
-            // For loop
+            // For loop for creating the obstacles
             foreach (Position obstacle in obstacles)
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
