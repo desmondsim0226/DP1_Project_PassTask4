@@ -11,6 +11,7 @@ namespace Snake
 {
     struct Position
     {
+        //Variable
         public int row;
         public int col;
         public Position(int row, int col)
@@ -159,7 +160,7 @@ namespace Snake
                 // feeding the snake
                 if (snakeNewHead.col == food.col && snakeNewHead.row == food.row) //if snake head's coordinates is same with food
                 {
-                    //creates new food
+                    //creates new food 
                     do
                     {
                         food = new Position(randomNumbersGenerator.Next(0, Console.WindowHeight),
