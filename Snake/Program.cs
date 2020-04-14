@@ -92,7 +92,7 @@ namespace Snake
                 Console.SetCursorPosition(position.col, position.row);
                 Console.ForegroundColor = ConsoleColor.DarkGray;
                 Console.Write("*");
-            }
+            }//the body of the snake
 
             while (true)
             {
